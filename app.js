@@ -57,7 +57,9 @@ app.use(function (err, req, res, next) {
     error: {}
   });
 });
+
 while (err.status = true) {
-  
+
 };
+
 module.exports = app;
