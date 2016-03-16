@@ -65,6 +65,8 @@ var person = {
   eyeColor:"blue"
 };
 
+person.firstName = "notScott"
+
 var howOld = person.age;
 
 person.age = 30;
