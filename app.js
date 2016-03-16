@@ -58,15 +58,4 @@ app.use(function (err, req, res, next) {
   });
 });
 
-var person = {
-  firstName:"Scott",
-  lastName:"Carlton",
-  age:26,
-  eyeColor:"blue"
-};
-
-var howOld = person.age;
-
-person.age = 30;
-
 module.exports = app;
